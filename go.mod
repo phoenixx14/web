@@ -3,9 +3,11 @@ module github.com/openmultiplayer/web
 go 1.14
 
 require (
+	github.com/Masterminds/semver v1.5.0
 	github.com/PuerkitoBio/goquery v1.6.0
 	github.com/Southclaws/go-samp-query v1.1.3
 	github.com/Southclaws/qstring v1.1.0
+	github.com/Southclaws/sampctl v0.0.0-20210109143621-2daeb58d756a
 	github.com/blevesearch/bleve v1.0.14
 	github.com/bwmarrin/discordgo v0.22.0
 	github.com/cenkalti/backoff v2.2.1+incompatible
@@ -30,6 +32,7 @@ require (
 	github.com/thanhpk/randstr v1.0.4
 	github.com/tkrajina/go-reflector v0.5.4 // indirect
 	github.com/tkrajina/typescriptify-golang-structs v0.1.3
+	go.etcd.io/bbolt v1.3.5
 	go.uber.org/fx v1.13.1
 	go.uber.org/zap v1.16.0
 	golang.org/x/net v0.0.0-20201031054903-ff519b6c9102 // indirect

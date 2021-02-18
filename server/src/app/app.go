@@ -77,6 +77,7 @@ func Start(ctx context.Context) error {
 
 				// The router to mount the service handlers onto.
 				router chi.Router,
+				_ *pkgworker.PackageWorker,
 			) {
 				router.Mount("/", legacyService.R)
 				router.Mount("/server", serversService.R)
